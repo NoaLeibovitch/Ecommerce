@@ -1,0 +1,51 @@
+.GoButton{
+    width: 5%;
+    min-width: 50px;
+    display: flex;
+    height:100%;
+}
+
+button{
+    background-color: #333533;
+    color: #EDEDED;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #242423;
+    color: #FFFFFF;
+}
+.SearchTextBox{
+    align-self: center;
+    width:50%;
+    margin: 10px;
+    height:100%;
+    display: flex;
+}
+textarea::placeholder{
+    color: #9faba5;
+}
+
+textarea{
+    resize: none;
+    min-width: 300px;
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 0px 0px 4px;
+    display: block;
+
+}
+
+.SearchQuery{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:36px;
+}

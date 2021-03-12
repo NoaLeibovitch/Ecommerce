@@ -1,0 +1,49 @@
+.ProductsGrid{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductPreview{
+  border: 1px #282c34 solid;
+  display: flex;
+  margin: 10px;
+}
+
+img{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
+.ProductContent{
+  margin: 10px;
+}
+.ProductImage{
+  width: 150px;
+  height:100px;
+  display: flex;
+  margin: 10px;
+  place-content:center;
+}
+
+.ProductTitle{
+  text-align: left;
+  display: flex;
+  font-size: 26px;
+  word-break: keep-all;
+}
+
+.ProductTitle::first-letter {
+  text-transform: capitalize;
+}
+
+.ProductDescription{
+  text-align: left;
+  display: flex;
+  word-break: keep-all;
+}
+
+.ProductsGridRow{
+  width: 80%;
+  align-self: center;
+}

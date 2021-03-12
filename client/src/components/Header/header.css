@@ -1,0 +1,73 @@
+.MenuBar{
+  background-color: #333533;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #EDEDED;
+  padding: 0px 80px;
+}
+.NotLoggedInUserMenu{
+  color:white;
+  font-size: calc(10px + 1vmin);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.UserMenuButton{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 12px;
+  cursor: pointer;
+}
+.UserMenuButton:hover{
+  background-color: #242423;
+}
+
+.LoggedInUserMenu{
+  color:white;
+  font-size: calc(10px + 1vmin);
+  align-items: center;
+  display: flex;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+#regular{
+  margin: 0px 8px;
+  cursor: pointer;
+}
+
+#bold{
+  color: #F5CB5C;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropDownMenu{
+  position: relative;
+  display: inline-block;
+  top: 25px;
+}
+
+.options{
+  position: absolute;
+  background-color: #EDEDED;
+  min-width: 160px;
+  box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.2);
+  text-align: left;
+}
+.menuItem{
+  color: black;
+  text-decoration: none;
+  padding: 4px 8px;
+  display: flex;
+  height: 100%;
+}
+
+.menuItem:hover {
+  background-color: #F5CB5C;
+}
